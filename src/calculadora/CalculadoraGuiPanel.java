@@ -497,7 +497,7 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
     }//GEN-LAST:event_borrarUltimoBotonActionPerformed
 
     private void textboxInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textboxInputActionPerformed
-      igualBotonActionPerformed(evt);
+      igualBoton.doClick();
     }//GEN-LAST:event_textboxInputActionPerformed
 
     private void textboxInputKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_textboxInputKeyPressed
