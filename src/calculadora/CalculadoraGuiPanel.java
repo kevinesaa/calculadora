@@ -33,26 +33,26 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
     private void initComponents() {
 
         tecladoPanel = new javax.swing.JPanel();
-        botonCancelar = new javax.swing.JButton();
-        botonBorrar = new javax.swing.JButton();
-        botonBorrarUltimo = new javax.swing.JButton();
-        botonPorcentaje = new javax.swing.JButton();
-        botonSiete = new javax.swing.JButton();
-        botonOcho = new javax.swing.JButton();
-        botonNueve = new javax.swing.JButton();
-        botonDividir = new javax.swing.JButton();
-        botonCuatro = new javax.swing.JButton();
-        botonCinco = new javax.swing.JButton();
-        botonSeis = new javax.swing.JButton();
-        botonMultiplicar = new javax.swing.JButton();
-        botonUno = new javax.swing.JButton();
-        botonDos = new javax.swing.JButton();
-        botonTres = new javax.swing.JButton();
-        botonRestar = new javax.swing.JButton();
-        botonCero = new javax.swing.JButton();
-        botonDecimal = new javax.swing.JButton();
-        botonIgual = new javax.swing.JButton();
-        botonSumar = new javax.swing.JButton();
+        cancelarBoton = new javax.swing.JButton();
+        borrarBoton = new javax.swing.JButton();
+        borrarUltimoBoton = new javax.swing.JButton();
+        porcentajeBoton = new javax.swing.JButton();
+        sieteBoton = new javax.swing.JButton();
+        ochoBoton = new javax.swing.JButton();
+        nueveBoton = new javax.swing.JButton();
+        dividirBoton = new javax.swing.JButton();
+        cuatroBoton = new javax.swing.JButton();
+        cincoBoton = new javax.swing.JButton();
+        seisBoton = new javax.swing.JButton();
+        multiplicarBoton = new javax.swing.JButton();
+        unoBoton = new javax.swing.JButton();
+        dosBoton = new javax.swing.JButton();
+        tresBoton = new javax.swing.JButton();
+        restarBoton = new javax.swing.JButton();
+        ceroBoton = new javax.swing.JButton();
+        puntoDecimalBoton = new javax.swing.JButton();
+        igualBoton = new javax.swing.JButton();
+        sumarBoton = new javax.swing.JButton();
         displayPanel = new javax.swing.JPanel();
         textboxOutput = new javax.swing.JTextField();
         textboxInput = new javax.swing.JTextField();
@@ -69,286 +69,286 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
         tecladoPanel.setPreferredSize(new java.awt.Dimension(200, 250));
         tecladoPanel.setLayout(new java.awt.GridLayout(5, 4));
 
-        botonCancelar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonCancelar.setText("C");
-        botonCancelar.setFocusable(false);
-        botonCancelar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonCancelar.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonCancelar.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonCancelar.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonCancelar.addActionListener(new java.awt.event.ActionListener() {
+        cancelarBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        cancelarBoton.setText("C");
+        cancelarBoton.setFocusable(false);
+        cancelarBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        cancelarBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        cancelarBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        cancelarBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        cancelarBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonCancelarActionPerformed(evt);
+                cancelarBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonCancelar);
+        tecladoPanel.add(cancelarBoton);
 
-        botonBorrar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonBorrar.setText("CE");
-        botonBorrar.setFocusable(false);
-        botonBorrar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonBorrar.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonBorrar.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonBorrar.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonBorrar.addActionListener(new java.awt.event.ActionListener() {
+        borrarBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        borrarBoton.setText("CE");
+        borrarBoton.setFocusable(false);
+        borrarBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        borrarBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        borrarBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        borrarBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        borrarBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonBorrarActionPerformed(evt);
+                borrarBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonBorrar);
+        tecladoPanel.add(borrarBoton);
 
-        botonBorrarUltimo.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonBorrarUltimo.setText("<-");
-        botonBorrarUltimo.setFocusable(false);
-        botonBorrarUltimo.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonBorrarUltimo.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonBorrarUltimo.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonBorrarUltimo.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonBorrarUltimo.addActionListener(new java.awt.event.ActionListener() {
+        borrarUltimoBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        borrarUltimoBoton.setText("<-");
+        borrarUltimoBoton.setFocusable(false);
+        borrarUltimoBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        borrarUltimoBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        borrarUltimoBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        borrarUltimoBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        borrarUltimoBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonBorrarUltimoActionPerformed(evt);
+                borrarUltimoBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonBorrarUltimo);
+        tecladoPanel.add(borrarUltimoBoton);
 
-        botonPorcentaje.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonPorcentaje.setText("%");
-        botonPorcentaje.setToolTipText("");
-        botonPorcentaje.setFocusable(false);
-        botonPorcentaje.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonPorcentaje.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonPorcentaje.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonPorcentaje.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonPorcentaje.addActionListener(new java.awt.event.ActionListener() {
+        porcentajeBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        porcentajeBoton.setText("%");
+        porcentajeBoton.setToolTipText("");
+        porcentajeBoton.setFocusable(false);
+        porcentajeBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        porcentajeBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        porcentajeBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        porcentajeBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        porcentajeBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonPorcentajeActionPerformed(evt);
+                porcentajeBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonPorcentaje);
+        tecladoPanel.add(porcentajeBoton);
 
-        botonSiete.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonSiete.setText("7");
-        botonSiete.setFocusable(false);
-        botonSiete.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonSiete.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonSiete.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonSiete.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonSiete.addActionListener(new java.awt.event.ActionListener() {
+        sieteBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        sieteBoton.setText("7");
+        sieteBoton.setFocusable(false);
+        sieteBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        sieteBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        sieteBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        sieteBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        sieteBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonSieteActionPerformed(evt);
+                sieteBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonSiete);
+        tecladoPanel.add(sieteBoton);
 
-        botonOcho.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonOcho.setText("8");
-        botonOcho.setFocusable(false);
-        botonOcho.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonOcho.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonOcho.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonOcho.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonOcho.addActionListener(new java.awt.event.ActionListener() {
+        ochoBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        ochoBoton.setText("8");
+        ochoBoton.setFocusable(false);
+        ochoBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        ochoBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        ochoBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        ochoBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        ochoBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonOchoActionPerformed(evt);
+                ochoBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonOcho);
+        tecladoPanel.add(ochoBoton);
 
-        botonNueve.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonNueve.setText("9");
-        botonNueve.setFocusable(false);
-        botonNueve.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonNueve.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonNueve.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonNueve.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonNueve.addActionListener(new java.awt.event.ActionListener() {
+        nueveBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        nueveBoton.setText("9");
+        nueveBoton.setFocusable(false);
+        nueveBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        nueveBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        nueveBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        nueveBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        nueveBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonNueveActionPerformed(evt);
+                nueveBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonNueve);
+        tecladoPanel.add(nueveBoton);
 
-        botonDividir.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonDividir.setText("/");
-        botonDividir.setFocusable(false);
-        botonDividir.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonDividir.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonDividir.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonDividir.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonDividir.addActionListener(new java.awt.event.ActionListener() {
+        dividirBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        dividirBoton.setText("/");
+        dividirBoton.setFocusable(false);
+        dividirBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        dividirBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        dividirBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        dividirBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        dividirBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonDividirActionPerformed(evt);
+                dividirBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonDividir);
+        tecladoPanel.add(dividirBoton);
 
-        botonCuatro.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonCuatro.setText("4");
-        botonCuatro.setFocusable(false);
-        botonCuatro.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonCuatro.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonCuatro.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonCuatro.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonCuatro.addActionListener(new java.awt.event.ActionListener() {
+        cuatroBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        cuatroBoton.setText("4");
+        cuatroBoton.setFocusable(false);
+        cuatroBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        cuatroBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        cuatroBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        cuatroBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        cuatroBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonCuatroActionPerformed(evt);
+                cuatroBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonCuatro);
+        tecladoPanel.add(cuatroBoton);
 
-        botonCinco.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonCinco.setText("5");
-        botonCinco.setFocusable(false);
-        botonCinco.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonCinco.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonCinco.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonCinco.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonCinco.addActionListener(new java.awt.event.ActionListener() {
+        cincoBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        cincoBoton.setText("5");
+        cincoBoton.setFocusable(false);
+        cincoBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        cincoBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        cincoBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        cincoBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        cincoBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonCincoActionPerformed(evt);
+                cincoBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonCinco);
+        tecladoPanel.add(cincoBoton);
 
-        botonSeis.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonSeis.setText("6");
-        botonSeis.setFocusable(false);
-        botonSeis.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonSeis.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonSeis.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonSeis.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonSeis.addActionListener(new java.awt.event.ActionListener() {
+        seisBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        seisBoton.setText("6");
+        seisBoton.setFocusable(false);
+        seisBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        seisBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        seisBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        seisBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        seisBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonSeisActionPerformed(evt);
+                seisBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonSeis);
+        tecladoPanel.add(seisBoton);
 
-        botonMultiplicar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonMultiplicar.setText("*");
-        botonMultiplicar.setFocusable(false);
-        botonMultiplicar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonMultiplicar.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonMultiplicar.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonMultiplicar.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonMultiplicar.addActionListener(new java.awt.event.ActionListener() {
+        multiplicarBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        multiplicarBoton.setText("*");
+        multiplicarBoton.setFocusable(false);
+        multiplicarBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        multiplicarBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        multiplicarBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        multiplicarBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        multiplicarBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonMultiplicarActionPerformed(evt);
+                multiplicarBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonMultiplicar);
+        tecladoPanel.add(multiplicarBoton);
 
-        botonUno.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonUno.setText("1");
-        botonUno.setFocusable(false);
-        botonUno.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonUno.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonUno.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonUno.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonUno.addActionListener(new java.awt.event.ActionListener() {
+        unoBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        unoBoton.setText("1");
+        unoBoton.setFocusable(false);
+        unoBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        unoBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        unoBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        unoBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        unoBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonUnoActionPerformed(evt);
+                unoBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonUno);
+        tecladoPanel.add(unoBoton);
 
-        botonDos.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonDos.setText("2");
-        botonDos.setFocusable(false);
-        botonDos.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonDos.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonDos.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonDos.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonDos.addActionListener(new java.awt.event.ActionListener() {
+        dosBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        dosBoton.setText("2");
+        dosBoton.setFocusable(false);
+        dosBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        dosBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        dosBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        dosBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        dosBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonDosActionPerformed(evt);
+                dosBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonDos);
+        tecladoPanel.add(dosBoton);
 
-        botonTres.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonTres.setText("3");
-        botonTres.setFocusable(false);
-        botonTres.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonTres.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonTres.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonTres.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonTres.addActionListener(new java.awt.event.ActionListener() {
+        tresBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        tresBoton.setText("3");
+        tresBoton.setFocusable(false);
+        tresBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        tresBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        tresBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        tresBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        tresBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonTresActionPerformed(evt);
+                tresBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonTres);
+        tecladoPanel.add(tresBoton);
 
-        botonRestar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonRestar.setText("-");
-        botonRestar.setFocusable(false);
-        botonRestar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonRestar.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonRestar.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonRestar.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonRestar.addActionListener(new java.awt.event.ActionListener() {
+        restarBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        restarBoton.setText("-");
+        restarBoton.setFocusable(false);
+        restarBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        restarBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        restarBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        restarBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        restarBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonRestarActionPerformed(evt);
+                restarBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonRestar);
+        tecladoPanel.add(restarBoton);
 
-        botonCero.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonCero.setText("0");
-        botonCero.setFocusable(false);
-        botonCero.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonCero.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonCero.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonCero.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonCero.addActionListener(new java.awt.event.ActionListener() {
+        ceroBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        ceroBoton.setText("0");
+        ceroBoton.setFocusable(false);
+        ceroBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        ceroBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        ceroBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        ceroBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        ceroBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonCeroActionPerformed(evt);
+                ceroBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonCero);
+        tecladoPanel.add(ceroBoton);
 
-        botonDecimal.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonDecimal.setText(".");
-        botonDecimal.setFocusable(false);
-        botonDecimal.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonDecimal.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonDecimal.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonDecimal.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonDecimal.addActionListener(new java.awt.event.ActionListener() {
+        puntoDecimalBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        puntoDecimalBoton.setText(".");
+        puntoDecimalBoton.setFocusable(false);
+        puntoDecimalBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        puntoDecimalBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        puntoDecimalBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        puntoDecimalBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        puntoDecimalBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonDecimalActionPerformed(evt);
+                puntoDecimalBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonDecimal);
+        tecladoPanel.add(puntoDecimalBoton);
 
-        botonIgual.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonIgual.setText("=");
-        botonIgual.setFocusable(false);
-        botonIgual.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonIgual.setMaximumSize(new java.awt.Dimension(50, 50));
-        botonIgual.setMinimumSize(new java.awt.Dimension(50, 50));
-        botonIgual.setPreferredSize(new java.awt.Dimension(50, 50));
-        botonIgual.addActionListener(new java.awt.event.ActionListener() {
+        igualBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        igualBoton.setText("=");
+        igualBoton.setFocusable(false);
+        igualBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        igualBoton.setMaximumSize(new java.awt.Dimension(50, 50));
+        igualBoton.setMinimumSize(new java.awt.Dimension(50, 50));
+        igualBoton.setPreferredSize(new java.awt.Dimension(50, 50));
+        igualBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonIgualActionPerformed(evt);
+                igualBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonIgual);
+        tecladoPanel.add(igualBoton);
 
-        botonSumar.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
-        botonSumar.setText("+");
-        botonSumar.setFocusable(false);
-        botonSumar.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
-        botonSumar.setMaximumSize(new java.awt.Dimension(50, 100));
-        botonSumar.setMinimumSize(new java.awt.Dimension(50, 100));
-        botonSumar.setPreferredSize(new java.awt.Dimension(50, 100));
-        botonSumar.addActionListener(new java.awt.event.ActionListener() {
+        sumarBoton.setFont(new java.awt.Font("Tahoma", 0, 12)); // NOI18N
+        sumarBoton.setText("+");
+        sumarBoton.setFocusable(false);
+        sumarBoton.setHorizontalTextPosition(javax.swing.SwingConstants.CENTER);
+        sumarBoton.setMaximumSize(new java.awt.Dimension(50, 100));
+        sumarBoton.setMinimumSize(new java.awt.Dimension(50, 100));
+        sumarBoton.setPreferredSize(new java.awt.Dimension(50, 100));
+        sumarBoton.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
-                botonSumarActionPerformed(evt);
+                sumarBotonActionPerformed(evt);
             }
         });
-        tecladoPanel.add(botonSumar);
+        tecladoPanel.add(sumarBoton);
 
         add(tecladoPanel, java.awt.BorderLayout.CENTER);
 
@@ -392,52 +392,52 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
 
     
     //evento oprimir el boton de sumar
-    private void botonSumarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSumarActionPerformed
+    private void sumarBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sumarBotonActionPerformed
         operar('+');
-    }//GEN-LAST:event_botonSumarActionPerformed
+    }//GEN-LAST:event_sumarBotonActionPerformed
 
     //evento oprimir el boton de restar
-    private void botonRestarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonRestarActionPerformed
+    private void restarBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_restarBotonActionPerformed
         operar('-');
-    }//GEN-LAST:event_botonRestarActionPerformed
+    }//GEN-LAST:event_restarBotonActionPerformed
 
     //evento oprimir el boton de multiplicar
-    private void botonMultiplicarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonMultiplicarActionPerformed
+    private void multiplicarBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_multiplicarBotonActionPerformed
         operar('*');        
-    }//GEN-LAST:event_botonMultiplicarActionPerformed
+    }//GEN-LAST:event_multiplicarBotonActionPerformed
 
     //evento oprimir el boton de dividir
-    private void botonDividirActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonDividirActionPerformed
+    private void dividirBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dividirBotonActionPerformed
         operar('/');
-    }//GEN-LAST:event_botonDividirActionPerformed
+    }//GEN-LAST:event_dividirBotonActionPerformed
 
     //evento oprimir el boton de porcentaje
-    private void botonPorcentajeActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonPorcentajeActionPerformed
+    private void porcentajeBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_porcentajeBotonActionPerformed
         porcentaje();
-    }//GEN-LAST:event_botonPorcentajeActionPerformed
+    }//GEN-LAST:event_porcentajeBotonActionPerformed
 
     //evento oprimir el boton igual
-    private void botonIgualActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonIgualActionPerformed
+    private void igualBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_igualBotonActionPerformed
        igualar();
-    }//GEN-LAST:event_botonIgualActionPerformed
+    }//GEN-LAST:event_igualBotonActionPerformed
 
     //evento oprimir el boton cancelar
-    private void botonCancelarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCancelarActionPerformed
+    private void cancelarBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cancelarBotonActionPerformed
         reiniciarValores();
-    }//GEN-LAST:event_botonCancelarActionPerformed
+    }//GEN-LAST:event_cancelarBotonActionPerformed
 
     //evento oprimir el boton borrar
-    private void botonBorrarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonBorrarActionPerformed
+    private void borrarBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_borrarBotonActionPerformed
         reiniciarEntrada();
-    }//GEN-LAST:event_botonBorrarActionPerformed
+    }//GEN-LAST:event_borrarBotonActionPerformed
 
     //evento oprimir boton cero
-    private void botonCeroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCeroActionPerformed
+    private void ceroBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ceroBotonActionPerformed
        ingresar("0");
-    }//GEN-LAST:event_botonCeroActionPerformed
+    }//GEN-LAST:event_ceroBotonActionPerformed
     
     //evento oprimir boton decimal
-    private void botonDecimalActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonDecimalActionPerformed
+    private void puntoDecimalBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_puntoDecimalBotonActionPerformed
         
         if(!this.decimal)
         {    
@@ -445,59 +445,59 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
             this.decimal=true;
         }
         
-    }//GEN-LAST:event_botonDecimalActionPerformed
+    }//GEN-LAST:event_puntoDecimalBotonActionPerformed
 
     ////evento oprimir boton uno
-    private void botonUnoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonUnoActionPerformed
+    private void unoBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_unoBotonActionPerformed
        ingresar("1");
-    }//GEN-LAST:event_botonUnoActionPerformed
+    }//GEN-LAST:event_unoBotonActionPerformed
 
     //evento oprimir boton dos
-    private void botonDosActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonDosActionPerformed
+    private void dosBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_dosBotonActionPerformed
         ingresar("2");
-    }//GEN-LAST:event_botonDosActionPerformed
+    }//GEN-LAST:event_dosBotonActionPerformed
 
     //evento oprimir boton tres
-    private void botonTresActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonTresActionPerformed
+    private void tresBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_tresBotonActionPerformed
         ingresar("3");
-    }//GEN-LAST:event_botonTresActionPerformed
+    }//GEN-LAST:event_tresBotonActionPerformed
 
     //evento oprimir boton cuatro
-    private void botonCuatroActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCuatroActionPerformed
+    private void cuatroBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cuatroBotonActionPerformed
         ingresar("4");
-    }//GEN-LAST:event_botonCuatroActionPerformed
+    }//GEN-LAST:event_cuatroBotonActionPerformed
 
     //evento oprimir boton cinco
-    private void botonCincoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonCincoActionPerformed
+    private void cincoBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_cincoBotonActionPerformed
        ingresar("5");
-    }//GEN-LAST:event_botonCincoActionPerformed
+    }//GEN-LAST:event_cincoBotonActionPerformed
 
     //evento oprimir boton seis
-    private void botonSeisActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSeisActionPerformed
+    private void seisBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_seisBotonActionPerformed
         ingresar("6");
-    }//GEN-LAST:event_botonSeisActionPerformed
+    }//GEN-LAST:event_seisBotonActionPerformed
 
     //evento oprimir boton siete
-    private void botonSieteActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonSieteActionPerformed
+    private void sieteBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_sieteBotonActionPerformed
         ingresar("7");
-    }//GEN-LAST:event_botonSieteActionPerformed
+    }//GEN-LAST:event_sieteBotonActionPerformed
 
     //evento oprimir boton ocho
-    private void botonOchoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonOchoActionPerformed
+    private void ochoBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ochoBotonActionPerformed
         ingresar("8");
-    }//GEN-LAST:event_botonOchoActionPerformed
+    }//GEN-LAST:event_ochoBotonActionPerformed
 
     //evento oprimir boton nueve
-    private void botonNueveActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonNueveActionPerformed
+    private void nueveBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_nueveBotonActionPerformed
         ingresar("9");
-    }//GEN-LAST:event_botonNueveActionPerformed
+    }//GEN-LAST:event_nueveBotonActionPerformed
 
-    private void botonBorrarUltimoActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_botonBorrarUltimoActionPerformed
+    private void borrarUltimoBotonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_borrarUltimoBotonActionPerformed
         borrarUltimo();
-    }//GEN-LAST:event_botonBorrarUltimoActionPerformed
+    }//GEN-LAST:event_borrarUltimoBotonActionPerformed
 
     private void textboxInputActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_textboxInputActionPerformed
-      botonIgualActionPerformed(evt);
+      igualBotonActionPerformed(evt);
     }//GEN-LAST:event_textboxInputActionPerformed
 
     private void textboxInputKeyPressed(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_textboxInputKeyPressed
@@ -505,35 +505,35 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
         
         switch(evt.getKeyChar())
         {
-            case '%' : botonPorcentaje.doClick();break;
+            case '%' : porcentajeBoton.doClick();break;
             
-            case '7' : botonSiete.doClick();       break;
-            case '8' : botonOcho.doClick();        break;
-            case '9' : botonNueve.doClick();       break;
-            case '/' : botonDividir.doClick();     break;
+            case '7' : sieteBoton.doClick();       break;
+            case '8' : ochoBoton.doClick();        break;
+            case '9' : nueveBoton.doClick();       break;
+            case '/' : dividirBoton.doClick();     break;
             
-            case '4' : botonCuatro.doClick();      break;
-            case '5' : botonCinco.doClick();       break;
-            case '6' : botonSeis.doClick();        break;
-            case '*' : botonMultiplicar.doClick(); break;
+            case '4' : cuatroBoton.doClick();      break;
+            case '5' : cincoBoton.doClick();       break;
+            case '6' : seisBoton.doClick();        break;
+            case '*' : multiplicarBoton.doClick(); break;
             
-            case '1' : botonUno.doClick();         break;
-            case '2' : botonDos.doClick();         break;
-            case '3' : botonTres.doClick();        break;
-            case '-' : botonRestar.doClick();      break;
+            case '1' : unoBoton.doClick();         break;
+            case '2' : dosBoton.doClick();         break;
+            case '3' : tresBoton.doClick();        break;
+            case '-' : restarBoton.doClick();      break;
             
-            case '0' : botonCero.doClick();        break;
-            case '.' : botonDecimal.doClick();     break;
-            case ',' : botonDecimal.doClick();     break;
-            case '=' : botonIgual.doClick();       break;
-            case '+' : botonSumar.doClick();       break;
+            case '0' : ceroBoton.doClick();        break;
+            case '.' : puntoDecimalBoton.doClick();     break;
+            case ',' : puntoDecimalBoton.doClick();     break;
+            case '=' : igualBoton.doClick();       break;
+            case '+' : sumarBoton.doClick();       break;
         }
         
         switch(evt.getKeyCode())
         {
-            case KeyEvent.VK_BACK_SPACE: botonBorrarUltimo.doClick(); break;
-            case KeyEvent.VK_ESCAPE:     botonCancelar.doClick();     break;
-            case KeyEvent.VK_DELETE:     botonBorrar.doClick();       break;
+            case KeyEvent.VK_BACK_SPACE: borrarUltimoBoton.doClick(); break;
+            case KeyEvent.VK_ESCAPE:     cancelarBoton.doClick();     break;
+            case KeyEvent.VK_DELETE:     borrarBoton.doClick();       break;
         }
         
     }//GEN-LAST:event_textboxInputKeyPressed
@@ -746,30 +746,30 @@ public class CalculadoraGuiPanel extends javax.swing.JPanel
     
     
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton botonBorrar;
-    private javax.swing.JButton botonBorrarUltimo;
-    private javax.swing.JButton botonCancelar;
-    private javax.swing.JButton botonCero;
-    private javax.swing.JButton botonCinco;
-    private javax.swing.JButton botonCuatro;
-    private javax.swing.JButton botonDecimal;
-    private javax.swing.JButton botonDividir;
-    private javax.swing.JButton botonDos;
-    private javax.swing.JButton botonIgual;
-    private javax.swing.JButton botonMultiplicar;
-    private javax.swing.JButton botonNueve;
-    private javax.swing.JButton botonOcho;
-    private javax.swing.JButton botonPorcentaje;
-    private javax.swing.JButton botonRestar;
-    private javax.swing.JButton botonSeis;
-    private javax.swing.JButton botonSiete;
-    private javax.swing.JButton botonSumar;
-    private javax.swing.JButton botonTres;
-    private javax.swing.JButton botonUno;
+    private javax.swing.JButton borrarBoton;
+    private javax.swing.JButton borrarUltimoBoton;
+    private javax.swing.JButton cancelarBoton;
+    private javax.swing.JButton ceroBoton;
+    private javax.swing.JButton cincoBoton;
+    private javax.swing.JButton cuatroBoton;
     private javax.swing.JPanel displayPanel;
+    private javax.swing.JButton dividirBoton;
+    private javax.swing.JButton dosBoton;
+    private javax.swing.JButton igualBoton;
+    private javax.swing.JButton multiplicarBoton;
+    private javax.swing.JButton nueveBoton;
+    private javax.swing.JButton ochoBoton;
+    private javax.swing.JButton porcentajeBoton;
+    private javax.swing.JButton puntoDecimalBoton;
+    private javax.swing.JButton restarBoton;
+    private javax.swing.JButton seisBoton;
+    private javax.swing.JButton sieteBoton;
+    private javax.swing.JButton sumarBoton;
     private javax.swing.JPanel tecladoPanel;
     private javax.swing.JTextField textboxInput;
     private javax.swing.JTextField textboxOutput;
+    private javax.swing.JButton tresBoton;
+    private javax.swing.JButton unoBoton;
     // End of variables declaration//GEN-END:variables
 
 }//public class CalculadoraGuiPanel extends javax.swing.JPanel
